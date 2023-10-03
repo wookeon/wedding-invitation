@@ -36,6 +36,7 @@ function App() {
                 <HonJus />
                 <Gallery images={images} />
                 <Location />
+                <CharteredBus />
                 <Account />
             </div>
         </div>
@@ -255,6 +256,42 @@ function Location() {
                         더 청담 건물 내 주차 (만차 시 외부주차장 이용, 발렛 가능)
                     </div>
                 </div>
+            </div>
+        </div>
+    )
+}
+
+function CharteredBus() {
+    return (
+        <div className="charteredBus-wrap">
+            <div className="title">
+                전세버스 안내
+            </div>
+            <div className="subtitle">
+                | 신랑측 |
+                <div className="content">
+                    출발: 오전 8시 30분 영주 시민운동장
+                    <br/>
+                    <br/>
+                    인 솔 자: 곽경란 010-2526-6630
+                </div>
+            </div>
+            <div className="notice">
+                전세버스를 이용하시는 하객 분들은 미리 연락 부탁드립니다.
+            </div>
+            <div className="subtitle">
+                | 신부측 |
+                <div className="content">
+                    출발 ①: 오전 10시 마날미 버스정류장 앞
+                    <br/>
+                    출발 ②: 오전 10시 15분 생극면 행정복지센터 앞
+                    <br/>
+                    <br/>
+                    차량 번호: 충북 71바 3348
+                </div>
+            </div>
+            <div className="notice">
+                전세버스를 이용하시는 하객 분들은 미리 연락 부탁드립니다.
             </div>
         </div>
     )
