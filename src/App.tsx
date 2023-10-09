@@ -17,15 +17,17 @@ import pic2 from './images/gallery/pic2.jpeg';
 import pic3 from './images/gallery/pic3.jpeg';
 import pic4 from './images/gallery/pic4.jpeg';
 import pic5 from './images/gallery/pic5.jpeg';
+import pic6 from './images/gallery/pic6.jpeg';
+import pic7 from './images/gallery/pic7.jpeg';
+import pic8 from './images/gallery/pic8.jpeg';
+import pic9 from './images/gallery/pic9.jpeg';
 import googleMap from './images/location/google-map.png';
 import naverMap from './images/location/naver-map.png';
 import kakaoMap from './images/location/kakao-map.png';
 import kakaoPay from './images/account/kakaoPay.png'
-import isActive = toast.isActive;
-import * as url from "url";
 
 function App() {
-    const images = [pic1, pic2, pic3, pic4, pic5];
+    const images = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9];
 
     return (
         <div className="App">
@@ -160,6 +162,18 @@ function Gallery({ images }: GalleryProps) {
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src={images[4]}/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={images[5]}/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={images[6]}/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={images[7]}/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={images[8]}/>
                     </SwiperSlide>
                 </Swiper>
             </>
